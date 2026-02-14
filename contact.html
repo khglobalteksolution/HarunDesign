@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khgfunder1 | Contact</title>
+    <meta
+      name="description"
+      content="Contact Khgfunder1 for crowdfunding promotion support via email or X."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Khgfunder1</a>
+        <nav class="nav-links" aria-label="Main Navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="reviews.html">Reviews</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Contact</h1>
+      <p class="page-intro">Let’s discuss your campaign goals and promotion plan.</p>
+
+      <section class="section grid two-col">
+        <article class="card">
+          <h2>Send a message</h2>
+          <form class="contact-form" id="contact-form">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="btn" style="background: var(--primary); color: #fff" type="submit">
+              Submit
+            </button>
+            <p id="form-status" class="form-note" aria-live="polite"></p>
+          </form>
+        </article>
+
+        <article class="card">
+          <h2>Direct contact</h2>
+          <p class="muted">Email and social links are always available.</p>
+          <p><strong>Email:</strong> <a href="mailto:khgfunder@gmail.com">khgfunder@gmail.com</a></p>
+          <p><strong>X (Twitter):</strong> <a href="https://x.com/khgfunder" target="_blank" rel="noreferrer">@khgfunder</a></p>
+          <p class="form-note">
+            Prefer email? Use the button below to open your mail app instantly.
+          </p>
+          <p>
+            <a class="btn" style="background: var(--accent); color: #fff" href="mailto:khgfunder@gmail.com">
+              Email Khgfunder1
+            </a>
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <span>© <span data-year></span> Khgfunder1</span>
+        <a href="mailto:khgfunder@gmail.com">khgfunder@gmail.com</a>
+        <a href="https://x.com/khgfunder" target="_blank" rel="noreferrer">@khgfunder on X</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
